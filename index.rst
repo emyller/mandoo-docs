@@ -1,20 +1,20 @@
-.. Mandoo documentation master file, created by
-   sphinx-quickstart on Sat Oct 24 23:26:36 2009.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Mandoo documentation
+====================
 
-Welcome to Mandoo's documentation!
-==================================
+.. rubric:: Master Mandoo and enjoy your new powers.
 
-Contents:
+First steps
+===========
 
-.. toctree::
-   :maxdepth: 2
+    * **Initial concepts:**
+      :ref:`Overview <intro-overview>` |
+      :ref:`Philosophies <intro-philosophies>` |
+      :ref:`Installation <intro-installation>`
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+    * **Get started:**
+      :ref:`Starting <intro-starting>` |
+      :ref:`Using the DOM API <intro-dom-api>` |
+      :ref:`Adding events <intro-adding-events>` |
+      :ref:`Animations basics <intro-animations-basics>` |
+      :ref:`XMLHttpRequest (Ajax) <intro-xmlhttprequest` |
+      :ref:`Using plug-ins <intro-plugins>`
