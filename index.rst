@@ -3,6 +3,10 @@ Mandoo documentation
 
 .. rubric:: Master Mandoo and enjoy your new powers.
 
+.. note::
+
+    This documentation isn't totally written yet. You may find many missing pages or broken links. We're needing your help to write the articles!
+
 First steps
 ===========
 
