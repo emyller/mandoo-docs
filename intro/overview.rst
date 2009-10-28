@@ -18,7 +18,7 @@ Developed in a production environment, it's ready to face many of the common Jav
 Basic ideal
 ===========
 
-It was designed to provide an easy, understandable way to make improvements to the user experience of your web page - or application. It's very important to notice, though, that :ref:`it doesn't help you to do things the messy way <philosophies-therightway>`: It won't help you to use things like inline events or load whole web pages with Ajax.
+It was designed to provide an easy, understandable way to make improvements to the user experience of your web page - or application. It's very important to notice, though, that :ref:`it doesn't help you to do things the obstrusive way <philosophies-therightway>`: It won't help you to use things like inline events or load whole web pages with Ajax.
 
 Just like good server-side frameworks (like Django) separates web development in three layers (models, controller and views), the client-side development is also separated by three layers: contents, styles and **behavior**. This last layer is where JavaScript fits in, and this is where Mandoo fits in too. This means that one of the Mandoo goals is help you to keep this organization, and these articles will guide you in this simple task.
 
