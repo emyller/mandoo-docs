@@ -98,7 +98,6 @@ html_theme = 'default'
 # documentation.
 html_theme_options = {
     'rightsidebar': True,
-    'stickysidebar': True,
 
     'relbarbgcolor': '#000',
     'sidebarbgcolor': '#333',
