@@ -5,7 +5,9 @@ Mandoo documentation
 
 .. warning::
 
-    This documentation isn't totally written yet. You may find many missing pages or broken links. We're needing your help to write the articles!
+    This documentation isn't totally written yet. You may find many missing pages or broken links. We're needing your help to write the articles! You can find - and contribute to - the documentation sources on `its repository`_. Thanks!
+
+.. _its repository: http://github.com/emyller/mandoo-docs/
 
 First steps
 ===========
