@@ -37,14 +37,14 @@ If you just want too see a few magic bits of code before diving deeper, here it 
 
     u("#contact-form").validation(
     { // The validation rules
-        'name': 'required, max(50)',
-        'email': 'required, email',
-        'password': 'required, min(6)',
+        'name': 'required,max(50)',
+        'email': 'required,email',
+        'password': 'required,min(6)',
         're-password': 'match(password)',
-        'sign_id': 'digits, length(4)'},
+        'sign_id': 'digits,length(4)'},
     { // Some additional options
         filters: {
-            '*': [u.clean]}
+            '*': [u.clean]},
         errorMessages: {
             '*': {
                 'required': "You can't leave this field blank.",
