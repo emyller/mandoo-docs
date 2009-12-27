@@ -5,7 +5,7 @@ Writing plug-ins
 ================
 
 .. warning::
-    This document is valid for Mandoo 1.4.
+    This document is valid for Mandoo 2.0.
 
 To make our lives easier, Mandoo includes a nice *module engine* that basically loads scripts and styles to the page, saving some extra and repetitious markup.
 
@@ -15,9 +15,13 @@ Usage example:
 
     u.require('hello_world', 'some_other_plugin');
 
-Simple. We think it much better than adding extra markup (styles + scripts) to every page we work on (like other JavaScript libraries require).
+Simple. We find it much better than adding extra markup (styles + scripts) to every page we work on - like other JavaScript libraries do.
 
-This document will guide you in the very simple task of creating plug-ins (modules) for Mandoo. We will take the *Hello world* example.
+This document will guide you in the very simple task of creating plug-ins (modules) for Mandoo.
+
+============
+Hello world!
+============
 
 File structure
 ==============
@@ -33,15 +37,19 @@ The plug-in core
 
 Time to learn how to make the magic.
 
-The built-in ``u.Module`` constructor is our friend here; we will pass some parameters to it:
+The built-in ``u.Module`` constructor is our friend here; we will pass some parameters to it so our plug-in will be available in the page:
 
-    * Some optional information about the plug-in
+    * Some information about the plug-in
     * Functions to be added to the Mandoo **core**
     * Functions to be added to the Mandoo **collection methods** (optional)
+    * An initializer function, for specific cases (optional)
 
 See the example:
 
 .. code-block:: javascript
+
+    // import some dependencies
+    u.require('some_other_plugin', 'another_dependency');
 
     new u.Module('hello_world',
     // some information about the plug-in (put whatever you want here, but keep 'version')
@@ -60,6 +68,11 @@ See the example:
             alert("Saying hello to " + this.length + "elements!");
             this.fadeOut();
             alert("Goodbye, elements!"); }
+    },
+
+    // The optional initializer
+    function () {
+        // do something here
     });
 
 This is our plug-in. You can see more (and functional) examples in the existent plug-ins.
@@ -75,10 +88,15 @@ From now on, Mandoo will have some new stuff available for use:
     // added to the elements methods:
     u("div.some-class").sayHelloAndGoodbye();
 
+Now you can put the code example above in your ``module.js`` and follow the file structure we showed above.
+
 Styling
 =======
 
-At the time you import the plug-in in your script, Mandoo will look for a ``media/s.css`` file. If that exists, the CSS will be added to your page's ``<head>``.
+At the time you import the plug-in in your script, Mandoo will look for a ``media/s.css`` file. If it exists, the CSS will be added to your page's ``<head>``.
+
+.. tip::
+    If your module will not use a stylesheet, add ``hasCSS: false`` to the module info. It will force Mandoo to don't look for any stylesheet file.
 
 You can add images to the media folder and just call them in your ``s.css``. Here's an example, assuming you put the images in a ``media/pics`` directory:
 
