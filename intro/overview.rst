@@ -31,43 +31,34 @@ If you just want too see a few magic bits of code before diving deeper, here it 
 
 .. code-block:: javascript
 
-    // This line imports the form validation core and all its dependencies
-    // (static files + other plug-ins, if necessary)
-    u.require('form_validation');
+	// xhr
+	u.get("/users/").on('finish', function () {
+		// do something with this.json
+	});
 
-    u("#contact-form").validation(
-    { // The validation rules
-        'name': 'required,max(50)',
-        'email': 'required,email',
-        'password': 'required,min(6)',
-        're-password': 'match(password)',
-        'sign_id': 'digits,length(4)'},
-    { // Some additional options
-        filters: {
-            '*': [u.clean]},
-        errorMessages: {
-            '*': {
-                'required': "You can't leave this field blank.",
-                'max': "Too many characters. Type less."},
-            're-password': {
-                'match': "Passwords don't match."}},
-        callbacks: [
-            u.FormValidation.HIGHLIGHT_FIELDS,
-            u.FormValidation.FOCUS_FIRST,
-            u.FormValidation.SHOW_ERROR_LIST] });
+	// animation
+	u("#box").anim(
+	{ // css properties
+		left: 500,
+		top: { to: 200, easing: u.Anim.makeBounce(10) },
+		backgroundColor: "red" }
+	{ // options
+		speed: 200, fps: 20 }); // speed = px/s
 
-This little example shows the usage of the :ref:`form validation plugin <plugins-form_validation>`.
+	// plugins
+	u.require("date", "calendar");
+	u("#date-field").calendar({
+		min: u.date.today(),
+		max: u.date.today().add(5, "months") });
 
-.. note::
+You may find it similar to other libraries' code, like jQuery, Prototype or even YUI. The Mandoo's goal isn't reinvent the wheel. We are taking the best, most polished wheels and joining them with our philosophies. **Very barely**, `Mandoo = Prototype.integrity + jQuery.simplicity + YUI.functionality + we.philosophy`.
 
-    You can notice that the code is self-explainatory and that there is something different there: the :ref:`u.require <api-u.require>`. You don't need to add dozens of extra scripts and styles to your webpages anymore. Mandoo helps you to keep it all clean.
-
-Did you like it? There is much more code to see on the forwards.
+Did you like it? There is much more to see on the forwards.
 
 What's next
 ===========
 
-This has been just a quick overview about the project. You'll find a lot more on the other sections of the documentation. Some suggestions for you to proceed are:
+This is just a quick overview about the project. You'll find a lot more on the other sections of the documentation. Some suggestions for you to proceed are:
 
     * :ref:`Philosophies <intro-philosophies>` - discover the internal ideas of the project and why it exists.
     * :ref:`Installation <intro-installation>` - put Mandoo in your page and give it a new breathe.
