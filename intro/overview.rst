@@ -55,12 +55,13 @@ You may find it similar to other libraries' code, like jQuery, Prototype or even
 
 Did you like it? There is much more to see on the forwards.
 
+
 What's next
 ===========
 
 This is just a quick overview about the project. You'll find a lot more on the other sections of the documentation. Some suggestions for you to proceed are:
 
-    * :ref:`Philosophies <intro-philosophies>` - discover the internal ideas of the project and why it exists.
-    * :ref:`Installation <intro-installation>` - put Mandoo in your page and give it a new breathe.
-    * :ref:`Starting <intro-starting>` - walk your first steps with your brand new powers.
-    * :ref:`Get involved <extra-get-involved>` - join our community and let us kill your doubts or come share your good will with us.
+* :ref:`Philosophies <intro-philosophies>` - discover the internal ideas of the project and why it exists.
+* :ref:`Installation <intro-installation>` - put Mandoo in your page and give it a new breathe.
+* :ref:`Starting <intro-starting>` - walk your first steps with your brand new powers.
+* :ref:`Get involved <extra-get-involved>` - join our community and let us kill your doubts or come share your good will with us.
