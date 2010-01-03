@@ -41,7 +41,7 @@ If you just want too see a few magic bits of code before diving deeper, here it 
 	{ // css properties
 		left: 500,
 		top: { to: 200, easing: u.Anim.makeBounce(10) },
-		backgroundColor: "red" }
+		backgroundColor: "red" },
 	{ // options
 		speed: 200, fps: 20 }); // speed = px/s
 
