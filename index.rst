@@ -47,16 +47,6 @@ Guides
     * :ref:`CSS3 selectors guide <guides-css3-selectors>`
     * :ref:`Customizing animation easings: working with Bézier <guides-bezier>`
 
-Official plug-ins
-=================
-
-    * :ref:`dock <plugins-dock>` - A custmizable dock based on the Mac OSX Dock
-    * :ref:`dragdrop <plugins-dragdrop>` - Drag & Drop functionality
-    * :ref:`form_validation <plugins-form_validation>` - A simple but powerful and extensible form validation plugins
-    * :ref:`photo <plugins-photo>` - A very lightweight photo displaying helper based on Lightbox (with albums support)
-    * :ref:`scroll <plugins-scroll>` - Dynamic and animated scrolling made easier
-    * :ref:`ui_basics <plugins-ui_basics>` - A set of useful tools to enhance the User Interface
-
 The project
 ===========
 
