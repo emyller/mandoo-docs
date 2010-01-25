@@ -1,5 +1,3 @@
-.. _guides-writing-plugins:
-
 ================
 Writing plug-ins
 ================
@@ -19,12 +17,11 @@ Simple. We find it much better than adding extra markup (styles + scripts) to ev
 
 This document will guide you in the very simple task of creating plug-ins (modules) for Mandoo.
 
-============
 Hello world!
 ============
 
 File structure
-==============
+--------------
 
 We do like the "convention over configuration" philosophy, so there is a convention on the file structure. You must follow this example:
 
@@ -33,7 +30,7 @@ We do like the "convention over configuration" philosophy, so there is a convent
 If your plug-in is going to use styles and/or other static files, they go to the ``media`` folder. Otherwise, you don't need this directory at all; the plug-in is fine with just the ``module.js``.
 
 The plug-in core
-================
+----------------
 
 Time to learn how to make the magic.
 
@@ -91,7 +88,7 @@ From now on, Mandoo will have some new stuff available for use:
 Now you can put the code example above in your ``module.js`` and follow the file structure we showed above.
 
 Styling
-=======
+-------
 
 At the time you import the plug-in in your script, Mandoo will look for a ``media/s.css`` file. If it exists, the CSS will be added to your page's ``<head>``.
 
