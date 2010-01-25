@@ -32,7 +32,7 @@ If you just want too see a few magic bits of code before diving deeper, here it 
 .. code-block:: javascript
 
 	// xhr
-	u.get("/users/").on('finish', function () {
+	u.get("/users/", { json: true }).on('finish', function () {
 		// do something with this.json
 	});
 
@@ -48,8 +48,8 @@ If you just want too see a few magic bits of code before diving deeper, here it 
 	// plugins
 	u.require("date", "calendar");
 	u("#date-field").calendar({
-		min: u.date.today(),
-		max: u.date.today().add(5, "months") });
+		min: u.Date.today(),
+		max: u.Date.today().add(5, "months") });
 
 You may find it similar to other libraries' code, like jQuery, Prototype or even YUI. The Mandoo's goal isn't reinvent the wheel. We are taking the best, most polished wheels and joining them with our philosophies. **Very barely**, `Mandoo = Prototype.integrity + jQuery.simplicity + YUI.functionality + we.philosophy`.
 
