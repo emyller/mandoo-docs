@@ -46,11 +46,11 @@ The project
 **Contributing:**
   `Git repository`_ |
   :doc:`Writing plug-ins <guides/writing-plugins>` |
-  `Reporting bugs`_ |
+  `Report bugs`_ |
   `Donate`_
 
 .. _Mailing list: http://groups.google.com/group/mandoojs/
 .. _#mandoojs IRC channel: irc://irc.freenode.net/mandoojs
-.. _Reporting bugs: http://github.com/emyller/mandoo/issues
+.. _Report bugs: http://github.com/emyller/mandoo/issues
 .. _Git repository: http://github.com/emyller/mandoo/
 .. _Donate: http://pledgie.com/campaigns/7378
