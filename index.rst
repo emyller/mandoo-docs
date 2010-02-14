@@ -12,42 +12,42 @@ Documentation
 -------------
 
 **Know the project** - learn more about Mandoo before diving deeper:
-  :doc:`Overview <intro/overview>` |
-  :doc:`Philosophies <intro/philosophies>` |
-  :doc:`Installation <intro/installation>`
+    :doc:`Overview <intro/overview>` |
+    :doc:`Philosophies <intro/philosophies>` |
+    :doc:`Installation <intro/installation>`
 
 **Tutorial** - try your brand new powers:
-  :doc:`Part 1 <tutorial/part1>` (DOM and DOM events) |
-  :doc:`Part 2 <tutorial/part2>` (Animations and Ajax) |
-  :doc:`Part 3 <tutorial/part3>` (Using plug-ins and advanced stuff)
+    :doc:`Part 1 <tutorial/part1>` (DOM and DOM events) |
+    :doc:`Part 2 <tutorial/part2>` (Animations and Ajax) |
+    :doc:`Part 3 <tutorial/part3>` (Using plug-ins and advanced stuff)
 
 **Dive into the code** - the built-in modules API:
-  :doc:`api/class` |
-  :doc:`api/event` |
-  :doc:`api/xmlhttprequest` |
-  :doc:`api/dom` |
-  :doc:`api/animation`
+    :doc:`api/class` |
+    :doc:`api/event` |
+    :doc:`api/xmlhttprequest` |
+    :doc:`api/dom` |
+    :doc:`api/animation`
 
 **Extend** - add reusable functionality:
-  :doc:`Writing plug-ins <guides/writing-plugins>` |
-  :doc:`Coding style <guides/coding-style>`
+    :doc:`Writing plug-ins <guides/writing-plugins>` |
+    :doc:`Coding style <guides/coding-style>`
 
 Guides
 ------
-  * :doc:`CSS3 selectors guide <guides/css3-selectors>`
-  * :doc:`Customizing animation easings: working with Bézier <guides/bezier>`
+    * :doc:`CSS3 selectors guide <guides/css3-selectors>`
+    * :doc:`Customizing animation easings: working with Bézier <guides/bezier>`
 
 The project
 -----------
 **Get involved:**
-  `Mailing list`_ |
-  `#mandoojs IRC channel`_
+    `Mailing list`_ |
+    `#mandoojs IRC channel`_
 
 **Contributing:**
-  `Git repository`_ |
-  :doc:`Writing plug-ins <guides/writing-plugins>` |
-  `Report bugs`_ |
-  `Donate`_
+    `Git repository`_ |
+    :doc:`Writing plug-ins <guides/writing-plugins>` |
+    `Report bugs`_ |
+    `Donate`_
 
 .. _Mailing list: http://groups.google.com/group/mandoojs/
 .. _#mandoojs IRC channel: irc://irc.freenode.net/mandoojs
