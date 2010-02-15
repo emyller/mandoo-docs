@@ -59,7 +59,7 @@ Creating and appending
 
     .. code-block:: js
 
-        // Inserts new <strong> elements in every matched <p> elements.
+        // Inserts new <span> elements in every matched <p> elements.
         u("#contents p").append("span.warning", "some appended text");
 
         // Moves existing elements to the matched element:
