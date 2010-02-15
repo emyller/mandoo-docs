@@ -400,8 +400,8 @@ Extra
 
     **Applied to forms only** - returns an object - not a string with structured data from all the form fields found in the current elements.
 
-``u().size()``
---------------
+``u().size``
+------------
 
 .. method:: .size([scrolls])
 
