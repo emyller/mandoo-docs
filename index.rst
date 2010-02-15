@@ -22,7 +22,6 @@ Documentation
     :doc:`Part 3 <tutorial/part3>` (Using plug-ins and advanced stuff)
 
 **Dive into the code** - the built-in modules API:
-    :doc:`api/class` |
     :doc:`api/event` |
     :doc:`api/xmlhttprequest` |
     :doc:`api/dom` |
